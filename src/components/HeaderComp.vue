@@ -52,6 +52,9 @@ export default {
             color: black;
         }
     }
+    li:hover {
+      border-bottom: 3px solid #0C7CEC;
+    }   
     }
 }
 }
