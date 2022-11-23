@@ -5,6 +5,8 @@
     <HeaderComp/>
 
     <MainComp/>
+
+    <FooterComp/>
   </div>
 </template>
 
@@ -12,13 +14,15 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
+import FooterComp from './components/FooterComp.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
     HeaderComp,
-    MainComp
+    MainComp,
+    FooterComp
   }
 }
 </script>
