@@ -23,14 +23,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+@import "../style/variabili.scss";
 .container-cards{
     background-color: black;
     .cards{
         padding: 20px;
-        width: 80%;
-        margin: auto;
+        width:$eigthypercent;
+        margin: $auto;
         h2{
-            color: white;
+            color: $color-white;
         }
     }
 }

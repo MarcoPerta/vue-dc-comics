@@ -34,15 +34,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
+@import "../style/variabili.scss";
+
 .container-icons-blue{
     background-color: #0C7CEC;
     .icons-blue{
-        width: 80%;
-        margin: auto;
-        display: flex;
+        width: $eigthypercent;
+        margin: $auto;
+        display: $d-flex;
         padding: 15px;
         div{
-            display: flex;
+            display: $d-flex;
             padding: 10px;
             img{
                 width: 80px;
@@ -50,8 +52,8 @@ export default {
             }
             h4{
                 font-size: 12px;
-                color: white;
-                align-self: center;
+                color: $color-white ;
+                align-self: $center ;
                 padding-left: 5px;
             }
         }

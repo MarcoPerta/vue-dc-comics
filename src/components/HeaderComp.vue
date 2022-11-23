@@ -30,23 +30,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+@import "../style/variabili.scss";
 .container-full{
-    background-color: white;
+    background-color: $color-white ;
     .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: auto;
+    display: $d-flex;
+    justify-content: $justify-content-between;
+    align-items: $center ;
+    width: $eigthypercent;
+    margin: $auto;
     padding: 15px;
     ul{
-    display: flex;
-    justify-content: space-between;
+    display: $d-flex;
+    justify-content:$justify-content-between;
     li{
-        list-style-type: none;
+        list-style-type: $none;
         padding: 5px;
         a{
-            text-decoration: none;
+            text-decoration: $none;
             color: black;
         }
     }

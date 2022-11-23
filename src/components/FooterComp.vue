@@ -72,26 +72,28 @@ import FooterCompIcons from './FooterCompIcons.vue'
   
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+@import "../style/variabili.scss";
   .bg-image{
     background-image: url(../assets/img/footer-bg.jpg);
-    display: flex;
-    justify-content: space-between;
+    display: $d-flex ;
+    justify-content: $justify-content-between ;
     .footer-list{
-        width: 80%;
-        margin: auto;
-        display: flex;
+        width: $eigthypercent;
+        margin: $auto;
+        display: $d-flex ;
         h3{
-            color: white;
-            text-align: center;
+            color: $color-white;
+            text-align: $center;
         }
          ul{
-            text-align: left;
+            text-align: $left;
             li{
-                list-style-type: none;
+                list-style-type: $none;
                 padding: 3px;
                  a{
-                    text-decoration: none;
-                    color: grey;
+                    text-decoration: $none;
+                    color: $color-grey;
                  }
             }
          }

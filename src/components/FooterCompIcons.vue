@@ -22,23 +22,25 @@ export default {
 
 <style scoped lang="scss">
 
+@import "../style/variabili.scss";
+
   .footer-icons{
     background-color: #303030;
     .footer-center{
-        width: 80%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        width: $eigthypercent;
+        margin: $auto ;
+        display: $d-flex ;
+        justify-content: $justify-content-between ;
+        align-items: $center ;
         .btn{
             border-color: blue;
             padding: 8px;
-            color: white;
+            color: $color-white;
             background-color: #303030;
         }
         .right{
-            display: flex;
-            align-items: center;
+            display: $d-flex ;
+            align-items: $center;
             .h4{
                 padding: 5px;
                 color:blue
