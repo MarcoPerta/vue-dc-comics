@@ -98,6 +98,14 @@ import FooterCompIcons from './FooterCompIcons.vue'
             }
          }
     }
+
+    .image-dc{
+        background-image: url(../assets/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+    }
   }
 
 </style>
