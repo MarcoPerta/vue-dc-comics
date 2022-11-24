@@ -43,10 +43,10 @@ export default {
     padding: 15px;
     ul{
     display: $d-flex;
-    justify-content:$justify-content-between;
+    // justify-content:$justify-content-between;
     li{
         list-style-type: $none;
-        padding: 5px;
+        padding: 30px 10px;
         a{
             text-decoration: $none;
             color: black;
