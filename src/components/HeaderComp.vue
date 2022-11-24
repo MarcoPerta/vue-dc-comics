@@ -4,7 +4,7 @@
             <div>
             <img src="../assets/img/dc-logo.png" alt="logo-dc">
         </div>
-        <div>
+        <nav>
             <ul>
                 <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
@@ -17,7 +17,7 @@
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SHOP</a></li>
             </ul>
-        </div>
+        </nav>
         </div>
     </div>
 </template>

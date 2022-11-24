@@ -4,8 +4,8 @@
             <div class="footer-list">
                 <div class="list-left">
                     <div>
-                        <h3>DC COMICS</h3>
                         <ul>
+                            <h3>DC COMICS</h3>
                             <li><a href="#">Characters</a></li>
                             <li><a href="#">Comics</a></li>
                             <li><a href="#">Movies</a></li>
@@ -16,16 +16,16 @@
                         </ul>
                     </div>
                     <div>
-                        <h3>SHOP</h3>
                         <ul>
+                            <h3>SHOP</h3>
                             <li><a href="#">Shop DC</a></li>
                             <li><a href="#">Shop DC Collections</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="list-center">
-                    <h3>DC</h3>
                     <ul>
+                        <h3>DC</h3>
                         <li><a href="#">Terms Of Use</a></li>
                         <li><a href="#">Privacy Policy(New)</a></li>
                         <li><a href="#">Ad Choices</a></li>
@@ -40,8 +40,8 @@
                     </ul>
                 </div>
                 <div class="list-left">
-                    <h3>SITES</h3>
                     <ul>
+                        <h3>SITES</h3>
                         <li><a href="#">DC</a></li>
                         <li><a href="#">MAD Magazine</a></li>
                         <li><a href="#">DC Kids</a></li>
@@ -84,7 +84,7 @@ import FooterCompIcons from './FooterCompIcons.vue'
         display: $d-flex ;
         h3{
             color: $color-white;
-            text-align: $center;
+            text-align: $left;
         }
          ul{
             text-align: $left;

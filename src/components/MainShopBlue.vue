@@ -45,10 +45,10 @@ export default {
         padding: 15px;
         div{
             display: $d-flex;
-            padding: 10px;
+            padding: 15px;
             img{
-                width: 80px;
-                height: 80px;
+                width: 60px;
+                height: 65px;
             }
             h4{
                 font-size: 12px;
